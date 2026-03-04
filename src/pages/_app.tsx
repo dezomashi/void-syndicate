@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
             borderRadius: 'none',
           })}
           modalSize="compact"
+          locale="en-US"
         >
           <Component {...pageProps} />
         </RainbowKitProvider>
